@@ -1,0 +1,10 @@
+/** This is to Include the Fonts for the Project. */
+@import '../fonts/materials/material-icons.css';
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('OpenSans'),
+         url(../fonts/regular/OpenSans-Regular.ttf) format('truetype');
+}

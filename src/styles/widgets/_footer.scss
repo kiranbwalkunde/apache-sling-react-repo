@@ -1,0 +1,19 @@
+.footer-comp {
+  background: #262626;
+  color: #fff;
+
+  .top {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  ul {
+    list-style-type: none;
+    i {
+      color: #fff;
+      padding: 5px;
+      &:hover {
+        border: 1px solid #fff;
+        padding: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "logo": {
+    "title": "Notice Board Dashboard",
+    "imagePath": "/images/om-symbol.png",
+    "targetUrl": "/"
+  },
+  "signInInfo": {
+    "userName": "Shiva",
+    "iconPath": "/content/sadashiv/sample.png",
+    "iconClass": "account_circle"
+  },
+  "links": [
+    {
+      "text": "Dashboard",
+      "targetUrl": "/"
+    },
+    {
+      "text": "Computer",
+      "targetUrl": "/content/sadashiv/computer"
+    },
+    {
+      "text": "Mechanical",
+      "targetUrl": "/content/sadashiv/mechanical"
+    },
+    {
+      "text": "Electronics",
+      "targetUrl": "/content/sadashiv/electronics"
+    },
+    {
+      "text": "IT",
+      "targetUrl": "/content/sadashiv/it"
+    }
+  ]
+}

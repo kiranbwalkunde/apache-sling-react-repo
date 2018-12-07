@@ -1,0 +1,16 @@
+.header-comp {
+	background: #fff;
+	-webkit-box-shadow: 7px 11px 10px 0px rgba(201,188,235,0.84);
+	-moz-box-shadow: 7px 11px 10px 0px rgba(201,188,235,0.84);
+	box-shadow: 7px 11px 10px 0px rgba(201,188,235,0.84);
+	ul {
+		list-style-type: none;
+	}
+
+	.header-top {
+		border-bottom: 1px solid #e5e5e5;
+		.logo-image {
+			height: 60px;
+		}
+	}
+}

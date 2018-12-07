@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/** This is the Main File supposed to
+* 
+* contain all the Fonts and CSS Inclusion.
+*/
+@import './style.scss';
+@import './fonts.scss';
+
+/** Import the Vendors Styles. */
+@import '../vendors/bootstrap.min.css';
+
+/** Importing the Components Styles. */
+@import './components';
+
+/** Applying the Styles for the Document elements. */
+body {
+  font-family: OpenSans;
+  background: #fbfbfb;
+  margin: 0px;
+}
