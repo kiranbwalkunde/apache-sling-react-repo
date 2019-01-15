@@ -10,6 +10,9 @@ class Footer extends Component {
   render() {
     const {props} = this;
     const {data} = props;
+    console.log('The Properties are: ', data);
+    const result = {...data};
+    console.log('The Result is ', result);
     const {links = [], copyRightText, logo} = data;
     return(
       <div className="footer-comp container px-0 py-3">
@@ -26,7 +29,7 @@ class Footer extends Component {
         <div className="row mx-0 bottom pt-3 pb-2">
           <div className="col px-0">
             <ul className="pl-0 mb-0">
-              {links.map((item, key) => 
+              {links.map((item, key) =>
                 <li
                   className="d-inline-block px-2"
                   key={['footer-item', key].join('_')}>
